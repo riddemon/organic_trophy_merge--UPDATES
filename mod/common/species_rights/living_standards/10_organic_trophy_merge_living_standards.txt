@@ -1,0 +1,29 @@
+living_standard_organic_trophy_merge = {
+	# intentionally no happiness bonus - gene-therapy is uncomfortable
+	pop_modifier = { # duplicates pop_modifier from living_standard_organic_trophy
+		pop_category_bio_trophy_consumer_goods_upkeep_add = @living_standard_luxuries_very_high
+	}
+	potential = {
+		has_synthethic_dawn = yes
+		exists = from
+		from = {
+			has_valid_civic = civic_machine_servitor
+			has_technology = tech_gene_tailoring
+		}
+	}
+	allow = {
+		hidden_trigger = { exists = from }
+		custom_tooltip = {
+			fail_text = species_is_not_trophy
+			has_citizenship_type = {
+				type = citizenship_organic_trophy
+				country = from
+			}
+		}
+		custom_tooltip = {
+			fail_text = species_is_primary_trophy
+			NOT = { home_planet = { is_planet = from.owner_species.home_planet } }
+		}
+	}
+	ai_will_do = { factor = 0 }
+}
