@@ -1,4 +1,4 @@
-name="Bio-Trophy Merge"
+name="Merge Bio-Trophies"
 tags={
 	"Species"
 	"Gameplay"
