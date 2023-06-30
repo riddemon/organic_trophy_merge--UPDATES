@@ -4,5 +4,6 @@ tags={
 	"Gameplay"
 }
 version="1.0.0"
-supported_version="3.8.*"
 picture="thumbnail.png"
+supported_version="3.8.*"
+remote_file_id="2996582310"
