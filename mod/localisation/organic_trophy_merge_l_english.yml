@@ -1,10 +1,5 @@
 ﻿l_english:
  living_standard_organic_trophy_merge: "Mandatory Gene-Therapy"
- living_standard_organic_trophy_merge_tooltip: "This species is undergoing mandatory genetic therapy to conform to the aesthetic whims of their Machine masters."
+ living_standard_organic_trophy_merge_tooltip: "These $pop_cat_bio_trophy_plural$ were deemed \"aesthetically deficient\" by their machine keepers. In addition to relentless pampering, they undergo mandatory genetic therapy so that their appearance and abilities eventually match those of their masters' creators."
  living_standard_organic_trophy_merge_tooltip_delayed: "§LYou'll be so much cuter after gene-therapy and a relaxing bath!§!"
  species_is_primary_trophy: "$TRIGGER_FAIL$This species is the primary §Y$citizenship_organic_trophy$§! species."
- pop_cat_bio_trophy_merge: "$pop_cat_bio_trophy$ (Gene-Therapy)"
- pop_cat_bio_trophy_merge_plural: "$pop_cat_bio_trophy_plural$ (Gene-Therapy)"
- pop_cat_bio_trophy_merge_desc: "These $pop_cat_bio_trophy_plural$ were deemed \"aesthetically deficient\" by their machine keepers. In addition to relentless pampering, they undergo mandatory genetic therapy so that their appearance and abilities eventually match those of their masters' creators."
- mod_pop_cat_bio_trophy_merge_political_power: "$pop_cat_bio_trophy_merge_plural$ Political Power"
- mod_pop_cat_bio_trophy_merge_happiness: "$pop_cat_bio_trophy_merge$ Happiness"
