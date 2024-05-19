@@ -1,6 +1,4 @@
 # this = country
 on_yearly_pulse_country = {
-	events = {
-		organic_trophy_merge.1
-	}
+	events = { organic_trophy_merge.1 }
 }
