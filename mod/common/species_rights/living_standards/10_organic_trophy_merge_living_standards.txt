@@ -1,10 +1,10 @@
 living_standard_organic_trophy_merge = {
 	# intentionally no happiness bonus - gene-therapy is uncomfortable
-	pop_modifier = { # duplicates pop_modifier from living_standard_organic_trophy
-		pop_category_bio_trophy_consumer_goods_upkeep_add = @living_standard_luxuries_very_high
-	}
+	# duplicates pop_modifier from living_standard_organic_trophy
+
+	pop_modifier = { pop_category_bio_trophy_consumer_goods_upkeep_add = @living_standard_luxuries_very_high }
 	potential = {
-		has_synthethic_dawn = yes
+		has_synthetic_dawn = yes
 		exists = from
 		from = {
 			has_valid_civic = civic_machine_servitor
